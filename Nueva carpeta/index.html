@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Hola, soy iker pinzon
+        </h1><img src="https://i.imgur.com/6VBx3io.png" width="150">
+        <p>Estoy aprendiendo programación web 🚀</p>
+        <button onclick="saludar()">Haz clic aquí</button>
+    </div>
+
+    <script>
+        function saludar() {
+            alert("¡Sigue así! Vas muy bien 💪🔥");
+        }
+    </script>
+
+</body>
+</html>
